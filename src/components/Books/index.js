@@ -2,7 +2,8 @@ import { Component } from 'react'
 import {BsSearch} from 'react-icons/bs'
 import Cookies from 'js-cookie'
 import {Navigate} from 'react-router-dom'
-import { TailSpin } from 'react-loader-spinner';
+import { ClipLoader } from 'react-spinners';
+
 import Header from '../Header'
 import Booklist from '../booklist'
 import './index.css'
@@ -79,13 +80,8 @@ const filteredBooks = booklist.filter(book =>
   book.title.toLowerCase().includes(search.toLowerCase()) ||
   book.authors.toLowerCase().includes(search.toLowerCase())
 );
-if (loading) return  <div className='book-loader-spinner'><TailSpin
-  height={80}
-  width={80}
-  color="#4fa94d"
-  ariaLabel="loading"
-  visible={true}
-/></div>
+if (loading) return  <div className='book-loader-spinner'><ClipLoader color="#4fa94d" size={80} />
+</div>
         return(
 
             <div>

@@ -1,5 +1,6 @@
 import { Component } from 'react';
-import { TailSpin } from 'react-loader-spinner';
+import { ClipLoader } from 'react-spinners';
+
 
 import CartContext from '../../context/CartContext';
 import Header from '../Header';
@@ -67,7 +68,8 @@ class BookDetails extends Component {
     if (loading) {
       return (
         <div className="book-loader-spinner">
-          <TailSpin height={80} width={80} color="#4fa94d" ariaLabel="loading" visible />
+          <ClipLoader color="#4fa94d" size={80} />
+
         </div>
       );
     }

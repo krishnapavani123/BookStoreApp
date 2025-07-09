@@ -4,7 +4,7 @@ import Cookies from 'js-cookie'
 
 import './index.css'
 
-const Header = props => {
+const Header = () => {
   const navigate = useNavigate();
 
   const onClickLogout = () => {
