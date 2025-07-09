@@ -1,0 +1,33 @@
+
+.link-item {
+  display: block; /* Allows it to behave like a div */
+ width:300px;
+ margin: auto;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.price{
+    color:black;
+}
+
+.books-container{
+  
+
+    
+}
+.img{
+    width:200px;
+    
+}
+.heading{
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 6px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  line-height: 1.4;
+  max-width: 100%;
+}
