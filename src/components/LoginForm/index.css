@@ -110,3 +110,6 @@
   border-radius: 8px;
   border: none;
 }
+.error-message{
+  color:red;
+}
