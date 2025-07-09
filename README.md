@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+##Title
+BookStore-Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎯Objective
+Define the main goal or purpose of the assignment. Clearly describe what the project aims to achieve.
 
-## Available Scripts
 
-In the project directory, you can run:
+⚙️ Tech Stack
 
-### `npm start`
+Frontend: HTML, CSS, JavaScript, React.js
+Styling:  Tailwind CSS / CSS Modules
+State Mgmt:	React Context API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+API Handling:	Fetch / Axios
+Deployment	:   GitHub Pages / Netlify / Vercel
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Completion Instructions
+🔹 Functionality
+ Must Have:
+[List core functionalities like "Add to cart", "View product details", etc.]
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+🛠️ Guidelines to Develop
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧱 Must Have
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+=>Maintain a modular and reusable component structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+=>Ensure responsiveness across devices
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+=>Handle errors and edge cases (e.g., missing API data)
 
-## Learn More
+=>Follow best practices in folder structure and naming conventions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🎨 Nice to Have
+=>Add comments for clarity in logic-heavy sections
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+=>Use consistent commit messages with Git
 
-### Code Splitting
+=>Include a loader for data fetch scenarios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+📤 Submission Instructions
+📨 Must Have
+=>Host project and share live link
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+=>Submit GitHub repo with detailed README
 
-### Making a Progressive Web App
+=>Include screenshots or a demo GIF
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📁 Nice to Have
+=>Provide installation/setup instructions
 
-### Advanced Configuration
+=>Record a short walkthrough video
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🧰 Resources
+🖌️ Design Files
+[From NXTWAVE React Assignment,Figma]
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+🌐 APIs
+GoogleAPIS
+1.https://www.googleapis.com/books/v1/volumes/${id}
+2.https://www.googleapis.com/books/v1/volumes?q=motivation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📦Third-party Packages
+
+=>react-loader-spinner — loading indicator
+
+=>react-icons — icon components for UI
+
+=>js-cookie — for handling JWT tokens
+
+=>react-router-dom — for routing between pages
